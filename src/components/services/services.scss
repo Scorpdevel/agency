@@ -106,8 +106,12 @@
 }
 
 @media  screen and (max-width: 376px){
+    
+    .wave{
+        display: none;
+    }
      .serviceContainer{
-        margin-top: -2rem;
+        margin-top: 0rem;
     }
     .service__header_box{
         width: 90%;
@@ -151,8 +155,12 @@
 }
 
 @media only screen and (max-width: 425px){
+    
+        .wave{
+        display: none;
+    }
      .serviceContainer{
-        margin-top: -2rem;
+        margin-top: 0rem;
     }
     .service__header_box{
         width: 90%;
