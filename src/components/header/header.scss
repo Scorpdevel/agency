@@ -1,0 +1,35 @@
+.nav{
+    padding: 20px 0px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.navbar-nav li{
+    display: list-item;
+    cursor: pointer;
+}
+
