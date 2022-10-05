@@ -102,9 +102,13 @@
 
 
 @media only screen and (max-width: 320px){
+
 }
 
 @media  screen and (max-width: 376px){
+     .serviceContainer{
+        margin-top: -2rem;
+    }
     .service__header_box{
         width: 90%;
         margin-bottom: -4rem;
@@ -147,6 +151,9 @@
 }
 
 @media only screen and (max-width: 425px){
+     .serviceContainer{
+        margin-top: -2rem;
+    }
     .service__header_box{
         width: 90%;
         margin-bottom: -4rem;
