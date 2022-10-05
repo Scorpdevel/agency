@@ -8,7 +8,7 @@ import Logo1 from '../../assets/Excalibur-min.jpg'
 import Logo2 from '../../assets/4Bros-min.jpg'
 import Logo3 from '../../assets/Tagesauto-min.jpg'
 import Pf1 from '../../assets/Fahrschulbox-min.jpg'
-import Pf2 from '../../assets/Grüner Tropfen-min.jpg'
+import Pf2 from '../../assets/Grüner-Tropfen-min.jpg'
 import Pf3 from '../../assets/TesSence-min.jpg'
 
 
