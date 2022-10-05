@@ -98,6 +98,9 @@
 
 
 @media only screen and (max-width: 321px){
+        .wave{
+        display: none;
+    }
     .landing{
         height: 100vh;
     }
@@ -120,6 +123,9 @@
 }
 
 @media  screen and (max-width: 376px){
+        .wave{
+        display: none;
+    }
     .landing{
         height: 100vh;
     }
@@ -141,6 +147,9 @@
 }
 
 @media only screen and (max-width: 425px){
+        .wave{
+        display: none;
+    }
     .landing{
         height: 100vh;
     }
