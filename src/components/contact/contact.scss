@@ -83,3 +83,15 @@
 .MuiInputBase-colorPrimary{
     color: black !important;
 }
+
+
+
+@media only screen and (max-width: 425px){
+    .contactContainer{
+        .inner{
+           .one_row{
+                width: 60vw;
+        }
+        }
+    }
+}
