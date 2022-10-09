@@ -1,4 +1,4 @@
-import React, {useState, useCallback, useMemo } from "react";
+import React, { useCallback, useMemo } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 

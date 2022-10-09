@@ -10,7 +10,7 @@ const Datenschutz = () => {
         <h1>Datenschutzerkl&auml;rung</h1>
         <br />
         <h2>
-          1) Information &uuml;ber die Erhebung personenbezogener Daten und
+          1. Information &uuml;ber die Erhebung personenbezogener Daten und
           Kontaktdaten des Verantwortlichen
         </h2>
         <br />
@@ -76,7 +76,7 @@ const Datenschutz = () => {
           rechtswidrige Nutzung hinweisen.
         </p>
         <br />
-        <h2>3) Cookies</h2>
+        <h2>3. Cookies</h2>
         <br />
         <p>
           Um den Besuch unserer Website attraktiv zu gestalten und die Nutzung
@@ -134,7 +134,7 @@ const Datenschutz = () => {
           Microsoft Edge:{" "}
           <a
             href="https://support.microsoft.com/de-de/microsoft-edge/tempor&auml;res-zulassen-von-cookies-und-website-daten-in-microsoft-edge-597f04f2-c0ce-f08c-7c2b-541086362bd2"
-            target="_blank"
+           
           >
             https://support.microsoft.com
             <wbr />
@@ -150,7 +150,7 @@ const Datenschutz = () => {
           Firefox:{" "}
           <a
             href="https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen"
-            target="_blank"
+            
           >
             https://support.mozilla.org
             <wbr />
@@ -164,7 +164,7 @@ const Datenschutz = () => {
           Chrome:{" "}
           <a
             href="http://support.google.com/chrome/bin/answer.py?hl=de&amp;hlrm=en&amp;answer=95647"
-            target="_blank"
+           
           >
             http://support.google.com
             <wbr />
@@ -181,10 +181,10 @@ const Datenschutz = () => {
             &amp;answer=95647
           </a>
           <br />
-          Safari:{" "}
+          Safari:
           <a
             href="https://support.apple.com/de-de/guide/safari/sfri11471/mac"
-            target="_blank"
+         
           >
             https://support.apple.com
             <wbr />
@@ -199,10 +199,10 @@ const Datenschutz = () => {
             /mac
           </a>
           <br />
-          Opera:{" "}
+          Opera:
           <a
             href="http://help.opera.com/Windows/10.20/de/cookies.html"
-            target="_blank"
+
           >
             http://help.opera.com
             <wbr />
@@ -242,7 +242,7 @@ const Datenschutz = () => {
           gesetzlichen Aufbewahrungspflichten entgegenstehen.
         </p>
         <br />
-        <h2>5) Rechte des Betroffenen</h2>
+        <h2>5. Rechte des Betroffenen</h2>
         <br />
         <p>
           <b>5.1</b>&nbsp;Das geltende Datenschutzrecht gew&auml;hrt Ihnen
@@ -306,7 +306,7 @@ const Datenschutz = () => {
           VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.
         </p>
         <br />
-        <h2>6) Dauer der Speicherung personenbezogener Daten</h2>
+        <h2>6. Dauer der Speicherung personenbezogener Daten</h2>
         <br />
         <p>
           Die Dauer der Speicherung von personenbezogenen Daten bemisst sich
