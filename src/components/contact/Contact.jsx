@@ -103,7 +103,7 @@ function Contact() {
           </div>
 
           <div className="row mb-4">
-            <div className="input_container">
+            <div className="input_container one_row">
               <TextField
                 id="outlined-multiline-flexible"
                 label="Womit können wir dir helfen?"
@@ -123,7 +123,7 @@ function Contact() {
             <label className="col-sm-2 col-form-label"></label>
             <div className="col-sm-10">
               <button className="landing_button" name="button">
-                Submit
+                Senden
               </button>
             </div>
           </div>

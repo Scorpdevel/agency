@@ -24,37 +24,37 @@ function Navbar() {
   return (
     <nav className={navHead}>
       <div className="nav__container">
-        <a href="#" className="nav__brand">
+        <a href="/#home" className="nav__brand">
           <img src={Logo} alt=""/>
         </a>
         <ul className={active}>
           <li className="nav__item">
-            <a onClick={navToggle} href="#home" className="nav__link">
+            <a onClick={navToggle} href="/#home" className="nav__link">
               Home
             </a>
           </li>
           <li className="nav__item">
-            <a  onClick={navToggle} href="#services" className="nav__link">
+            <a  onClick={navToggle} href="/#services" className="nav__link">
               Services
             </a>
           </li>
           <li className="nav__item">
-            <a  onClick={navToggle} href="#ueber_uns" className="nav__link">
+            <a  onClick={navToggle} href="/#ueber_uns" className="nav__link">
               Über uns
             </a>
           </li>
           <li className="nav__item">
-            <a onClick={navToggle} href="#prozess" className="nav__link">
+            <a onClick={navToggle} href="/#prozess" className="nav__link">
               Prozess
             </a>
           </li>
           <li className="nav__item">
-            <a  onClick={navToggle} href="#portfolio" className="nav__link">
+            <a  onClick={navToggle} href="/#portfolio" className="nav__link">
               Portfolio
             </a>
           </li>
           <li className="nav__item">
-            <a  onClick={navToggle} href="#kontakt" className="nav__link">
+            <a  onClick={navToggle} href="/#kontakt" className="nav__link">
               Kontakt
             </a>
           </li>

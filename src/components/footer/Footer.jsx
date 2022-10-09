@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/Logo-2-min.png'
 import './footer.scss'
 
@@ -16,8 +17,8 @@ const Footer = () => {
             <div className='inner_box'>
         <p>LINKS</p>
             <ul>
-                <li>Services</li>
-                <li>Kontakt</li>
+                <a href='/#services'><li>Services</li></a>
+                <a href={"/#kontakt"}><li>Kontakt</li> </a>
             </ul>
             </div>
         </div>
@@ -25,8 +26,8 @@ const Footer = () => {
             <div className='inner_box'>
             <p>WICHTIGE LINKS</p>
             <ul>
-                <li>Datenschutz</li>
-                <li>Impressum</li>
+            <Link to={"/datenschutz"}><li>Datenschutz</li> </Link>
+            <Link to={"/impressum"}><li>Impressum</li> </Link>
             </ul>
             </div>
         </div>
