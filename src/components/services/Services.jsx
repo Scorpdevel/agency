@@ -74,9 +74,9 @@ const Services = () => {
           <h2>Web Support</h2>
           <div className="line_box"></div>
           <p>
-            Wir wollen das du dich komplett auf dein Kerngeschäfft konzentrierst.
+            Wir wollen das du dich komplett auf dein Kerngeschäft konzentrierst.
             Gerne übernehmen wir für dich die Webseitenpflege. 
-            Darunter fallen regelmäßige Backups, aktulisierung der Framework/Plugins oder auch das einpflegen von neuen Inhalten.
+            Darunter fallen regelmäßige Backups, Aktulisierung der Framework/Plugins oder auch das Einpflegen von neuen Inhalten.
           </p>
         </div>
       </div>

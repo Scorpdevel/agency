@@ -17,7 +17,7 @@ const Process = () => {
               <h6>Kontaktaufnahme</h6>
               <p>
                 Wir treffen uns mit unseren Kunden von Angesicht zu Angesicht
-                oder virtuel, um ein erstes Gespräch zu führen und Wünsche und
+                oder virtuell, um ein erstes Gespräch zu führen und Wünsche und
                 Ziele herauszuarbeiten.
               </p>
             </div>

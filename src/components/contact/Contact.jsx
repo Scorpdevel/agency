@@ -137,8 +137,7 @@ function Contact() {
         <p>Kontakt</p>
         <h4>Lass uns anfangen</h4>
         <p>
-          We craft digital, graphic and dimensional thinking, to create category
-          leading brand experiences that have meaning and add a value.
+          Setz dich unverbindlich mit uns in Kontakt. Wir planen gemeinsam <b>deine Zukunft.</b>
         </p>
         <div className="line"></div>
         <ul>
