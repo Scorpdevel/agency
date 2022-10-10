@@ -41,22 +41,25 @@
 
     .inner__Body{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         max-width: 1140px;
         width: 100%;
         align-items: center;
         justify-content: space-between;
-        margin-top: 5rem;
+        margin-top: 2rem;
 
         .inner__Body_box{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
+            width: 100%;
+            margin-top: 2rem;
+            
 
             .inner__Body_box_circle{
-                width: 4rem;
-                height: 4rem;
+                width: 6rem;
+                height: 6rem;
                 border-radius: 50%;
                 background-color: #4f00c1;
                 display: flex;
@@ -64,69 +67,45 @@
                 align-items: center;
                 text-align: center;
                 color: white;
-                font-size: 2rem;
+                font-size: 3rem;
+                margin-right: 2rem;
             }
             .inner__Body_box_body{
-                margin-top: 2rem;
-                padding: 2rem;
+
+                padding: 1.5rem;
                 background-color: #f9f9f9;
-                text-align: center;
+                text-align: left;
                 width: 70%;
+                text-align: justify;
+
             }
         }
     }
 }
 
 h6{
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: left;
 }
 
 
-@media only screen and (max-width: 321px){
+
+@media only screen and (max-width: 1025px){
     .processContainer{
         .processContainer__Inner{
-
-            .inner__header{
-                width: 80%;
-            }
             .inner__Body{
-                display: flex;
-                flex-direction: column;
-
                 .inner__Body_box{
-                    margin-bottom: 2rem;
-
                     .inner__Body_box_body{
-                        margin-top: 1rem;
+                        text-align: left;
                     }
                 }
             }
         }
     }
 
-}
-
-@media only screen and (max-width: 425px){
-    .processContainer{
-        .processContainer__Inner{
-
-            .inner__header{
-                width: 80%;
-            }
-            .inner__Body{
-                display: flex;
-                flex-direction: column;
-
-                .inner__Body_box{
-                    margin-bottom: 2rem;
-
-                    .inner__Body_box_body{
-                        margin-top: 1rem;
-                    }
-                }
-            }
-        }
+    h6{
+        text-align: left;
     }
 }
 
@@ -146,13 +125,75 @@ h6{
 
                     .inner__Body_box_body{
                         margin-top: 1rem;
+                        text-align: left;
                     }
                 }
             }
         }
     }
+
+    h6{
+        text-align: left;
+    }
 }
 
-@media only screen and (max-width: 1025px){
+
+@media only screen and (max-width: 425px){
+    .processContainer{
+        .processContainer__Inner{
+
+            .inner__header{
+                width: 80%;
+            }
+            .inner__Body{
+                display: flex;
+                flex-direction: column;
+
+                .inner__Body_box{
+                    margin-bottom: 2rem;
+                    flex-direction: column;
+
+                    .inner__Body_box_body{
+                        margin-top: 1rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    h6{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 321px){
+    .processContainer{
+        .processContainer__Inner{
+
+            .inner__header{
+                width: 80%;
+            }
+            .inner__Body{
+                display: flex;
+                flex-direction: column;
+
+                .inner__Body_box{
+                    margin-bottom: 2rem;
+                    flex-direction: column;
+
+                    .inner__Body_box_body{
+                        margin-top: 1rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    h6{
+        text-align: center;
+    }
+
 }
 

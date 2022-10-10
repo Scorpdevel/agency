@@ -25,9 +25,8 @@ const Services = () => {
           <h2>Webentwicklung</h2>
           <div className="line_box"></div>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Eine moderne Webseite ist in der jetzigen Zeit, in der Digitlaisierung eine große Rolle spielt, enorm wichtig.
+            Egal ob eine Eigenentwicklung oder ein CMS System (z.B. Wordpress) - wir lassen dich gut aussehen. 
           </p>
         </div>
         <div className="serviceBox boxshadow">
@@ -44,9 +43,8 @@ const Services = () => {
           <h2>E-commerce</h2>
           <div className="line_box"></div>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Du willst deine Produkte online anbieten um deinen Umsatz zu steigen?
+            Kein Problem! Wir entwickeln dir einen ansprechende Onlineshop. Dafür nutzen wir Shopify oder Woocommerce um die cyber security zu garantieren.
           </p>
         </div>
       </div>
@@ -76,9 +74,9 @@ const Services = () => {
           <h2>Web Support</h2>
           <div className="line_box"></div>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Wir wollen das du dich komplett auf dein Kerngeschäfft konzentrierst.
+            Gerne übernehmen wir für dich die Webseitenpflege. 
+            Darunter fallen regelmäßige Backups, aktulisierung der Framework/Plugins oder auch das einpflegen von neuen Inhalten.
           </p>
         </div>
       </div>

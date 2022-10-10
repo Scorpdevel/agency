@@ -1,163 +1,195 @@
-.aboutContainer{
-    width: 100%;
-    padding: 6rem 0rem;
-    background-color: #f9f9f9 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.aboutContainer__inner{
+.aboutContainer {
+  width: 100%;
+  padding: 6rem 0rem;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .aboutContainer__inner {
     display: flex;
     max-width: 1140px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-}
-.inner__left{
-    width: 35rem;
-    height: 30rem;
-    background-color: white;
-    z-index: 11;
-    box-shadow: 0px 10px 22px rgb(0 0 0 / 5%);
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
 
-    p{
+    .inner__left {
+      width: 35rem;
+      height: 30rem;
+      background-color: white;
+      z-index: 11;
+      box-shadow: 0px 10px 22px rgb(0 0 0 / 5%);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
         color: #8492a6;
         font-size: 1rem;
-    }
+      }
 
-    h4{
+      h4 {
         font-size: 2rem;
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
+      }
     }
+
+    .inner__right {
+      width: 40rem;
+      height: 35rem;
+      background-color: blue;
+      z-index: 0;
+      position: absolute;
+      right: 8.5rem;
+      background-image: url("../../assets//undraw_Business_deal_re_up4u.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
 }
-.inner__right{
-    width: 40rem;
-    height: 35rem;
-    background-color: blue;
-    z-index: 0;
-    position: absolute;
-    right: 8.5rem;
+
+
+@media only screen and (min-width: 2460px) {
+  .aboutContainer {
+    .aboutContainer__inner {
+      .inner__right {
+        margin-right: 35rem;
+      }
+    }
+  }
 }
 
 
-@media only screen and (max-width: 321px){
-    .aboutContainer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+@media only screen and (max-width: 1025px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    .aboutContainer__inner{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+    .aboutContainer__inner {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
 
-    }
-
-    .inner__right{
+      .inner__right {
         position: unset;
-        max-width: 18rem;
-        width: 18rem;
-        height: 10rem;
-    }
+        width: 84.5vw;
+      }
 
-    .inner__left{
+      .inner__left {
+        width: 80vw;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .aboutContainer__inner {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .inner__right {
+        position: static;
+        width: 41.5rem;
+      }
+
+      .inner__left {
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 426px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .aboutContainer__inner {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .inner__right {
+        position: static;
+        width: 23rem;
+        height: 15rem;
+        max-width: unset;
+      }
+
+      .inner__left {
+        width: 20rem;
+        height: auto;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 376px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .aboutContainer__inner {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .inner__right {
+        position: static;
+        width: 23rem;
+        height: 15rem;
+      }
+
+      .inner__left {
+        width: 20rem;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .aboutContainer__inner {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .inner__right {
+        position: static;
+        width: 18rem;
+        max-width: 20rem;
+        height: 20rem;
+      }
+
+      .inner__left {
         max-width: 15rem;
         width: 15rem;
         height: auto;
+      }
     }
-}
-
-@media only screen and (max-width: 425px){
-    .aboutContainer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .aboutContainer__inner{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .inner__right{
-        position: unset;
-        width: 23rem;
-    }
-
-    .inner__left{
-        width: 20rem;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    .aboutContainer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .aboutContainer__inner{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .inner__right{
-        position: unset;
-       
-    }
-
-    .inner__left{
-     
-    }
-
-}
-
-@media only screen and (max-width: 1025px){
-    .aboutContainer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .aboutContainer__inner{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .inner__right{
-        position: unset;
-        width: 84.5vw;
-       
-    }
-
-    .inner__left{
-        width: 80vw;
-    }
-}
-
-@media only screen and (min-width: 2460px){
-    
-        .inner__right{
-            margin-right: 35rem;
-
-           
-        }
+  }
 }

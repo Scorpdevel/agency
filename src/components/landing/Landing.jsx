@@ -8,7 +8,7 @@ const Landing = () => {
       <div className="landing_text">
         <p className="landing_item">Scorpmedia</p>
         <h1 className="landing_item">
-          Die Agentur für <br /> Webseiten und Grafikdesign
+          Die Agentur für <br /> Web- und Grafikdesign
         </h1>
         <p className="landing_item">
           Scorpmedia ist eine All-in-One-Marketinglösung, die sich um alles

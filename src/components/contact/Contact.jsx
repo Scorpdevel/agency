@@ -141,6 +141,10 @@ function Contact() {
           leading brand experiences that have meaning and add a value.
         </p>
         <div className="line"></div>
+        <ul>
+          <li>info@scorpmedia.de</li>
+          <li>+49 176 77915838</li>
+        </ul>
       </div>
     </div>
   );

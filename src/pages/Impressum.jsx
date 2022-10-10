@@ -8,6 +8,7 @@ const Impressum = () => {
       <Navbar />
       <div style={{ padding: "6rem 3rem" }}>
         <h1>Impressum</h1>  <br />
+        Karim Jemmali <br />
         Feres Jammali <br />
         Scorpmedia <br />
         Nikolaistraße 32
@@ -20,7 +21,7 @@ const Impressum = () => {
         <br />
         E-Mail: info@scorpmedia.de <br />
         <br />
-        Umsatzsteuer-Identifikationsnummer: wird nachgereicht
+        Umsatzsteuer-Identifikationsnummer: 24/234/60605
         <br />
         <br />
         Plattform der EU-Kommission zur Online-Streitbeilegung: 

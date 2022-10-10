@@ -14,6 +14,19 @@
         align-items: center;
         text-align: center;
 
+        ul{
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            justify-content: space-evenly;
+            margin-top: 1rem;
+        }
+
+        li{
+            color: #4f00c1;
+            font-weight: 600;
+        }
+
         p{
             width: 60%;
             margin-top: 1rem;
@@ -89,6 +102,11 @@
 
 @media only screen and (max-width: 425px){
     .contactContainer{
+        .outer{
+            ul{
+                flex-direction: column;
+            }
+        }
         .inner{
            .one_row{
                 width: 60vw;

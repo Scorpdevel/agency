@@ -21,7 +21,7 @@ const About = () => {
             <br /> <br />
           </p>
         </div>
-        <div className="inner__right">test</div>
+        <div className="inner__right"></div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import {
   webPortfolio,
   mobilePortfolio,
   designPortfolio,
-  contentPortfolio,
+  // contentPortfolio,
 } from "../data";
 
 export default function Portfolio() {
@@ -29,10 +29,10 @@ export default function Portfolio() {
       id: "Produkt Fotos",
       title: "Produkt Fotos",
     },
-    {
-      id: "content",
-      title: "Content",
-    },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // },
   ];
 
   useEffect(() => {
@@ -49,9 +49,9 @@ export default function Portfolio() {
       case "Produkt Fotos":
         setData(designPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
-        break;
+      // case "content":
+      //   setData(contentPortfolio);
+      //   break;
       default:
         setData(featuredPortfolio);
     }
