@@ -6,6 +6,7 @@ const ParticlesBackground = () => {
 
   const options = useMemo(() => {
     return {
+      fpsLimit: window.innerWidth <= 575? 30 : 35,
       particles: {
         links:{
           enable:  true,
@@ -26,6 +27,7 @@ const ParticlesBackground = () => {
         color: {
           value: '#fff'
         },
+
 
       }
     };

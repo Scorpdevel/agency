@@ -4,9 +4,9 @@ import Navbar from "../components/navBar/NavBar";
 
 const Impressum = () => {
   return (
-    <div>
+    <div >
       <Navbar />
-      <div style={{ padding: "6rem 3rem" }}>
+      <div style={{ padding: "6rem 3rem", "height" : "54vh" }}>
         <h1>Impressum</h1>  <br />
         Karim Jemmali <br />
         Feres Jammali <br />
