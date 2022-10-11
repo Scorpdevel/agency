@@ -144,6 +144,45 @@ li {
       
     }
   }
+
+  @media screen and (max-width: 327px) {
+    .nav__brand{
+      padding-left: 1rem;
+    }
+    .color_change{
+      background-color: #7764fe;
+    }
+    .nav__toggler {
+      display: block;
+      cursor: pointer;
+    }
+
+    img{
+      width: 70%;
+    }
+    .nav__menu {
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100vh;
+      width: 50vw;
+      background: #7764fe;
+      flex-direction: column;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
+    }
+
+    a{
+      color: white;
+    }
+
+    .nav__menu {
+      gap: 2rem;
+      
+    }
+  }
   /* Active Class */
   .nav__active {
     transform: translateX(0%);
