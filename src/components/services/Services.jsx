@@ -15,8 +15,8 @@ const Services = () => {
         <h3>Was können wir für dich tun?</h3>
         <div className="line"></div>
         <p>
-          Wir entwickeln dir alles für deine Onlinepräsenz. Egal ob einzigartige
-          Designs oder eine moderne Webseite.
+          Wir entwickeln alles für deine Onlinepräsenz. Egal ob einzigartige
+          Designs, oder eine moderne Webseite.
         </p>
       </div>
       <div className="serviceBox_container">
