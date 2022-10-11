@@ -22,9 +22,11 @@
     "tsparticles-slim": "^2.3.4",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cd ./build && gzip *.js && gzip *.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,5 +47,7 @@
       "not dead",
       "not op_mini all"
     ]
-  }
+  },
+
+  "resolutions": { "react-devtools-core": "4.14.0" }
 }
