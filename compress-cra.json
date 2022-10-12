@@ -1,5 +1,5 @@
 {
     "algorithms": ["br", "gz"],
-    "filetypes": [".html", ".js", ".css"],
+    "filetypes": [".html", ".js", ".css",".jpg"],
     "directory": "/build"
   }
