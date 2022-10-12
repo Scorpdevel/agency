@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='container_footer_top'>
         <div className='foot_box'>
         <div className='inner_box'>
-            <img src={Logo} alt=""  />
+            <img src={Logo} alt=""  loading='lazy'/>
             <p style={{"color":"#4f00c1"}}>WE CREATE IDEAS</p>
             </div>
         </div>
