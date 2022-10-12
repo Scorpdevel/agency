@@ -17,10 +17,10 @@ export default function Portfolio() {
       id: "Webseiten",
       title: "Webseiten",
     },
-    {
-      id: "Werbefiguren",
-      title: "Werbefiguren",
-    },
+    // {
+    //   id: "Werbefiguren",
+    //   title: "Werbefiguren",
+    // },
     {
       id: "Logos",
       title: "Logos",
@@ -40,9 +40,9 @@ export default function Portfolio() {
       case "Webseiten":
         setData(featuredPortfolio);
         break;
-      case "Werbefiguren":
-        setData(webPortfolio);
-        break;
+      // case "Werbefiguren":
+      //   setData(webPortfolio);
+      //   break;
       case "Logos":
         setData(mobilePortfolio);
         break;
