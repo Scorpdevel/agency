@@ -46,7 +46,7 @@ const Services = () => {
           <div className="line_box"></div>
           <p>
             Du willst deine Produkte online anbieten, um deinen Umsatz zu
-            steigen? Kein Problem! Wir entwickeln dir einen ansprechenden
+            steigern? Kein Problem! Wir entwickeln dir einen ansprechenden
             Onlineshop. Dafür nutzen wir Shopify, oder Woocommerce, um die
             Cybersecurity zu garantieren.
           </p>
