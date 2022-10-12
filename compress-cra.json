@@ -1,6 +1,6 @@
 {
     "algorithms": ["br", "gz"],
-    "filetypes": [".html", ".js", ".css",".jpg", ".png", ".jsx", ".scss"],
+    "filetypes": [".html", ".js", ".css",".jpg", ".png"],
     "directory": "/build",
-    "retainUncompressedFiles": false
+    "retainUncompressedFiles": true
   }
