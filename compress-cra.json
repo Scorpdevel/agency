@@ -13,5 +13,6 @@
         ".scss",
         ".jsx"
     ],
-    "directory": "/build"
+    "directory": "/build",
+    "retainUncompressedFiles": false
 }
