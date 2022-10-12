@@ -7,9 +7,6 @@
         ".html",
         ".js",
         ".css",
-        ".svg",
-        ".png",
-        ".jpg",
         ".scss",
         ".jsx"
     ],
