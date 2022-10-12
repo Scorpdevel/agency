@@ -70,7 +70,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((item) => (
           <div className="item">
-            <img width="25%" height="25%" loading="lazy" src={item.img} alt="" />
+            <img width={25} height={25} loading="lazy" src={item.img} alt="" />
             <h3>{item.title}</h3>
           </div>
         ))}
