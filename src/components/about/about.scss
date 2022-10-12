@@ -43,12 +43,19 @@
       z-index: 0;
       position: absolute;
       right: 8.5rem;
-      background-image: url("../../assets//undraw_Business_deal_re_up4u.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      // background-image: url("../../assets//undraw_Business_deal_re_up4u.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: cover;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
   }
+
+
 }
 
 

@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.scss";
+
+import Pic from '../../assets/undraw_Business_deal_re_up4u.png'
 const About = () => {
   return (
     <div id="ueber_uns" className="aboutContainer">
@@ -21,7 +23,9 @@ const About = () => {
             <br /> <br />
           </p>
         </div>
-        <div className="inner__right"></div>
+        <div className="inner__right">
+          <img loading="lazy" src={Pic} alt="about_us" />
+        </div>
       </div>
     </div>
   );
