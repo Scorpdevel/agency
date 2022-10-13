@@ -3,17 +3,17 @@
   "name": "Die Agentur für Webseiten und Grafikdesign",
   "icons": [
     {
-      "src": "./Logo Blank4.jpg",
+      "src": "./LogoNeu.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "./Logo Blank4.jpg",
+      "src": "/LogoNeu.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./Logo Blank4.jpg",
+      "src": "/LogoNeu.png",
       "type": "image/png",
       "sizes": "512x512"
     }
