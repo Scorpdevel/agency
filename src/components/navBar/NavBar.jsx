@@ -25,7 +25,7 @@ function Navbar() {
     <nav className={navHead}>
       <div className="nav__container">
         <a href="/#home" className="nav__brand">
-          <img src={Logo} alt="" loading="lazy"/>
+          <img src={Logo} alt=""/>
         </a>
         <ul className={active}>
           <li className="nav__item">
