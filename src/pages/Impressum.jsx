@@ -10,7 +10,7 @@ const Impressum = () => {
         <h1>Impressum</h1>  <br />
         Karim Jemmali <br />
         Feres Jammali <br />
-        Scorpmedia <br />
+        Scorpmedia GbR<br />
         Nikolaistraße 32
         <br />
         30159 Hannover
