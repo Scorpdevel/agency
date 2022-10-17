@@ -5,6 +5,7 @@
     flex-direction: column;
     background-color: white;
     margin-top: -1rem;
+    padding-top: 3.5rem;
     // border: 1px solid black;
    
 }
@@ -47,12 +48,13 @@
     padding: 40px 30px;
     border-radius: 0.25rem;
     width: 19rem;
-    height: 15rem;
+    height: 20rem;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    z-index: 2000;
 
 
     p {

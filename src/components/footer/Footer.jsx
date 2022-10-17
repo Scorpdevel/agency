@@ -26,7 +26,7 @@ const Footer = () => {
             <div className='inner_box'>
             <p>WICHTIGE LINKS</p>
             <ul>
-            <Link to={"/datenschutz"}><li>Datenschutz</li> </Link>
+            <Link  to={"/datenschutz"}><li>Datenschutz</li> </Link>
             <Link to={"/impressum"}><li>Impressum</li> </Link>
             </ul>
             </div>
