@@ -60,7 +60,7 @@ export default function Portfolio() {
   return (
     <div id="portfolio" className="portfolio_Container">
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <div className="line"></div>
       <ul style={{'flexWrap': 'wrap', "display": "flex","justifyContent": "space-evenly", "alignItems": "center", "width" : "80%"}}>
         {list.map((item) => (
