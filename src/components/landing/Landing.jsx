@@ -12,7 +12,7 @@ const Landing = () => {
         </h1>
         <p className="landing_item">
           Scorpmedia ist eine All-in-One-Marketinglösung, die sich um alles
-          kümmert um dein Geschäft online auszubauen.
+          kümmert, um dein Geschäft online auszubauen.
         </p>
         <div>
           <a href="#kontakt">

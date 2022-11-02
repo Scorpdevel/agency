@@ -11,7 +11,7 @@ const About = () => {
           <h4>Was ist Scorpmedia?</h4>
           <p>
             Scorpmedia ist eine All-in-One-Marketinglösung, die sich um alles
-            kümmert um dein Geschäft online auszubauen. <br /> <br /> Wir sind
+            kümmert, um dein Geschäft online auszubauen. <br /> <br /> Wir sind
             dafür da, um Unternehmen dabei zu helfen, in der digitalen Welt
             erfolgreich zu sein, ohne das Portemonnaie zu sprengen. Wir bieten
             Branding-, Design- und Wartungspakete, die perfekt für diejenigen

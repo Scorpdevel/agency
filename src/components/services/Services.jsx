@@ -27,7 +27,7 @@ const Services = () => {
           <p>
             Eine moderne Webseite ist in der jetzigen Zeit, in der
             Digitalisierung eine große Rolle spielt, enorm wichtig. Egal ob eine
-            Eigenentwicklung oder ein CMS System (z.B. Wordpress) - wir lassen
+            Eigenentwicklung, oder ein CMS System (z.B. Wordpress) - wir lassen
             dich gut aussehen.
           </p>
         </div>
