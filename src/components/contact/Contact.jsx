@@ -3,11 +3,7 @@ import TextField from "@mui/material/TextField";
 import emailjs from '@emailjs/browser';
 
 import "./contact.scss";
-const initialState = {
-  user_name:"",
-  user_email: "",
-  context: "",
-}
+
 function Contact() {
   const [formvalue, setFormvalue] = useState({
     user_name: "",
