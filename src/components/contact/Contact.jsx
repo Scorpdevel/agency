@@ -3,7 +3,11 @@ import TextField from "@mui/material/TextField";
 import emailjs from '@emailjs/browser';
 
 import "./contact.scss";
-
+const initialState = {
+  user_name:"",
+  user_email: "",
+  context: "",
+}
 function Contact() {
   const [formvalue, setFormvalue] = useState({
     user_name: "",
@@ -12,9 +16,11 @@ function Contact() {
   });
   const [formerror, setFormerror] = useState({});
   const [issubmit, setSubmit] = useState(false);
+  const [sendMessage, setSendMessage] = useState(false)
 
   const form = useRef();
 
+  const messeage = <p style={{'color' : 'green'}}>Email wurde Erfolgreich gesendet!</p>
   const sendEmail = (e) => {
    
 
@@ -56,6 +62,11 @@ function Contact() {
 
     if(!errors.name && !errors.email){
       sendEmail();
+      setFormvalue( {  user_name:" ",
+      user_email: " ",
+      context: " ",})
+      setSendMessage(true)
+      
     }
 
     return errors;
@@ -69,6 +80,7 @@ function Contact() {
 
   return (
     <div id="kontakt" className="contactContainer">
+      {sendMessage && messeage}
       <div className="inner">
         <form ref={form} onSubmit={handlesubmit}>
           <div className="row mb-4">
@@ -79,7 +91,7 @@ function Contact() {
                 id="fullWidth"
                 type="text"
                 name="user_name"
-                value={formvalue.name}
+                value={formvalue.user_name}
                 margin="dense"
                 onChange={handlevalidation}
               />
@@ -95,7 +107,7 @@ function Contact() {
                 id="fullWidth"
                 name="user_email"
                 margin="dense"
-                value={formvalue.email}
+                value={formvalue.user_email}
                 onChange={handlevalidation}
               />
               <span className="text-danger">{formerror.email} </span>
@@ -107,12 +119,12 @@ function Contact() {
               <TextField
                 id="outlined-multiline-flexible"
                 label="Womit können wir dir helfen?"
-                name="message"
+                name="context"
                 multiline
                 fullWidth
                 rows={5}
                 margin="dense"
-                value={formvalue.address}
+                value={formvalue.context}
                 onChange={handlevalidation}
               />
               <span className="text-danger">{formerror.address} </span>
