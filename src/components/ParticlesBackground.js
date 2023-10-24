@@ -11,11 +11,11 @@ const ParticlesBackground = () => {
         links:{
           enable:  true,
           color:{
-            value: '#fff'
+            value: '#fffff9'
           }
         },
         number:{
-          value: window.innerWidth <= 575? 30 : 150
+          value: window.innerWidth <= 575? 15 : 150
         },
         move: {
           enable:true,

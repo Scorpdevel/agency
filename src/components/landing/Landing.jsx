@@ -7,7 +7,7 @@ const Landing = () => {
     <div id="home" className="landing" >
       <div className="landing_text">
         <p className="landing_item">Scorpmedia</p>
-        <h1 className="landing_item">
+        <h1 className="landing_item_headline">
           Die Agentur für <br /> Web- und Grafikdesign
         </h1>
         <p className="landing_item">
@@ -16,7 +16,7 @@ const Landing = () => {
         </p>
         <div>
           <a href="#kontakt">
-          <button  className="landing_button">Kontakt</button>
+          <button  className="landing_button_contact">Kontakt</button>
           </a>
           <a href="#services">
           <button className="landing_button">Angebot</button>

@@ -66,8 +66,9 @@
     }
 }
 
-.landing_item{
+.landing_item_headline{
     margin: 0;
+    text-transform: uppercase ;
 }
 
 .wave{
@@ -89,9 +90,28 @@
     transition: 0.3s;
 
     &:hover{
-        border: 1px solid black;
+        border: 1px solid white;
         background-color: white;
         color: black;
+    }
+}
+
+.landing_button_contact{
+    padding: 12px 28px;
+    border-radius: 7px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    transition: 0.3s;
+
+    &:hover{
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
     }
 }
 
