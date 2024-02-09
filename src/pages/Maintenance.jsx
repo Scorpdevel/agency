@@ -19,7 +19,7 @@ const Maintenance = () => {
       </p>
       </div>
       <div className="maintenance__right">
-        <img src={logo} width={"30%"}/>
+        <img src={logo} width={"30%"} alt="logo scorpmedia"/>
       </div>
       </div>
     </div>
