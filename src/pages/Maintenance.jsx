@@ -10,7 +10,7 @@ const Maintenance = () => {
         <div className="maintenance__left">
       <h2>Coming Soon</h2>
       <p>
-        Wartungsmodus: Unsere Seite macht sich schick. <br/>
+        Wartungsmodus: <br />Unsere Seite macht sich schick. <br/> 
         Bleibt dran, wir sind bald zurück!
       </p>
       <Link
@@ -21,7 +21,7 @@ const Maintenance = () => {
                 e.preventdefault();
             }}
         >
-            Kontaktier uns
+            Kontaktiere uns
         </Link>
       <div>
         <img src={fontScorp} alt="scorpmedia schriftzug" />
