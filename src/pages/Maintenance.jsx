@@ -26,7 +26,7 @@ const Maintenance = () => {
       <div>
         <img src={fontScorp} alt="scorpmedia schriftzug" />
       </div>
-      <div>
+      <div className="info_mail">
         <p>info@scorpmedia.de</p>
       </div>
       </div>
