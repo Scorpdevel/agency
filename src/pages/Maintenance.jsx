@@ -24,7 +24,7 @@ const Maintenance = () => {
             Kontaktiere uns
         </Link> */}
           <button className="buttonStyle">
-            <a href="mailto:info@scorpmedia.de?body=My custom mail body">
+            <a href="mailto:info@scorpmedia.de">
               Kontaktiere uns
             </a>
           </button>
