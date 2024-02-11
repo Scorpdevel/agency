@@ -1,25 +1,34 @@
 import React from "react";
 import "./maintenance.scss";
-import logo from '../assets/LogoNeu.png'
+import fontScorp from '../assets/Logo bright.png'
+import { Link } from "react-router-dom";
 
 const Maintenance = () => {
   return (
     <div className="maintenance__container">
         <div className="container__main">
         <div className="maintenance__left">
-      <h2>Wartungsarbeiten im Gange</h2>
+      <h2>Coming Soon</h2>
       <p>
-        Liebe Besucherinnen und Besucher, aktuell befinden sich unsere kreativen
-        Köpfe im Hintergrund in intensiven Wartungsarbeiten, um Ihr
-        Nutzungserlebnis zu verbessern. Wir bitten um Ihr Verständnis und sind
-        bald wieder für Sie da.
+        Wartungsmodus: Unsere Seite macht sich schick. <br/>
+        Bleibt dran, wir sind bald zurück!
       </p>
-      <p>
-      In der Zwischenzeit stehen wir Ihnen gerne über <span>info@scorpmedia.de</span> zur Verfügung. Wir danken Ihnen für Ihr Vertrauen und Ihre Geduld.
-      </p>
+      <Link
+      className="buttonStyle"
+            to='#'
+            onClick={(e) => {
+                window.location.href ="mailto:info@scorpmedia.de";
+                e.preventdefault();
+            }}
+        >
+            Kontaktier uns
+        </Link>
+      <div>
+        <img src={fontScorp} alt="scorpmedia schriftzug" />
       </div>
-      <div className="maintenance__right">
-        <img src={logo} width={"30%"} alt="logo scorpmedia"/>
+      <div>
+        <p>info@scorpmedia.de</p>
+      </div>
       </div>
       </div>
     </div>

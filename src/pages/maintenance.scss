@@ -7,19 +7,32 @@
     align-items: center;
     max-width: 100vw;
     max-height: 100vh;
-    background-color: #171320;
+    background: radial-gradient(circle, rgba(59,25,127,1) 0%, rgba(15,6,32,1) 100%);
 
     h2{
-        font-size: 3em;
+        font-size: 8rem;
         color: white;
         text-align: center;
     }
 
+    .buttonStyle{
+        padding: 8px 48px;
+        font-size: 2rem;
+        border-radius: 20px;
+        background-color: #aa9aff;
+        border: 0px;
+        color: white;
+        margin-top: 3rem;
+        text-decoration: none;
+        font-style: n;
+        cursor: pointer;
+    }
+
     p{
         text-align: center;
-        font-size: 2em;
+        font-size: 2rem;
         max-width: 100%;
-        color: white;
+        color: #aa99ff;
 
         span{
             color: #7733FF;
@@ -33,8 +46,20 @@
         background-color: white;
         width: 60%;
         padding: 3rem;
-        background-color: #7733FF;
+        // background: radial-gradient(circle, rgba(130,86,239,1) 0%, rgba(119,51,255,1) 100%);
         border-radius: 50px ;
+        background: url('../assets//Scorp\ Purple.png') center/100% no-repeat, radial-gradient(#8256ef, #7733ff);
+        width: 70vw;
+        height: 60vh;
+        position: relative;
+
+        img{
+            width: 30%;
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
         .maintenance__left{
             display: flex;
             flex-direction: column;
@@ -42,17 +67,15 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 4rem;
-        }
-    
-        .maintenance__right{
+            width: 100%;
+            height: 100%;
+            max-width: 100vw;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            img{
-                filter: brightness(0) invert(1);
-            }
         }
+
     }
 }
 
@@ -61,11 +84,14 @@
         max-width: 100vw;
         overflow-y: hidden;
         h2{
-            font-size: 30px;
+            font-size: 7rem;
+            max-width: 60%;
+            border: 1px solid red;
         }
     
         p{
-            font-size: 20px;
+            font-size: 1.5rem;
+
     
             span{
 
@@ -73,17 +99,24 @@
         }
     
         .container__main{
-            width: 80%;
+            width: 100%;
             height: 100%;
             border-radius: 0;
+            max-width: 100vw;
+            padding: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
-
+            align-items: center;
+            background: url('../assets//Scorp\ Purple.png') center/300% no-repeat, radial-gradient(#8256ef, #7733ff);
 
             }
-        
+            .maintenance__left{
+                width: 100%;
+                max-width: 95%;
+            }
             .maintenance__right{
+                max-width: 95%;
     
                 img{
 
