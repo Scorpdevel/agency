@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Encode Sans';
+    src: local('Encode Sans'), url("../fonts/EncodeSans-VariableFont_wdth_wght.ttf") format('truetype');
+}
+
 .maintenance__container{
     width: 100vw;
     height: 100vh;
@@ -5,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Encode Sans';
     max-width: 100vw;
     max-height: 100vh;
     background: radial-gradient(circle, rgba(59,25,127,1) 0%, rgba(15,6,32,1) 100%);
@@ -17,20 +23,18 @@
 
     .buttonStyle{
         padding: 8px 48px;
-        font-size: 2rem;
         border-radius: 20px;
         background-color: #aa9aff;
         border: 0px;
         color: white;
-        margin-top: 3rem;
+        margin-top: 1rem;
         text-decoration: none;
-        font-style: n;
+        font-size: 1.2rem;
         cursor: pointer;
     }
 
     p{
         text-align: center;
-        font-size: 2rem;
         max-width: 100%;
         color: #aa99ff;
 
@@ -52,7 +56,7 @@
         width: 70vw;
         height: 60vh;
         position: relative;
-
+        font-size: 2em;
         img{
             width: 30%;
             position: absolute;
@@ -85,7 +89,8 @@
         overflow-y: hidden;
         h2{
             font-size: 5rem;
-            max-width: 100%;
+            max-width: 90%;
+            line-height: 4.5rem;
         }
     
         p{
